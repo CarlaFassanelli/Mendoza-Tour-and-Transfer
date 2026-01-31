@@ -1,0 +1,97 @@
+/* ===== GRILLA DE SERVICIOS ===== */
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    justify-items: center;
+}
+
+/* ===== TARJETAS ===== */
+.card {
+    background-color: var(--card-bg);
+    width: 100%;
+    max-width: 450px;
+    border-radius: 25px;
+    padding: 18px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* ===== CARRUSEL EN TARJETAS ===== */
+.card-img {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: var(--gris-fondo);
+}
+
+.card-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    display: none;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.card-img img.active {
+    opacity: 1;
+    display: block;
+}
+
+.card-body h3 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.card-body ul {
+    list-style: none;
+    margin: 15px 0;
+}
+
+.card-body li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--gris-fondo);
+}
+
+.card-body li:last-child {
+    border-bottom: none;
+}
+
+/* ===== BOTONES ===== */
+.card-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.btn-wa {
+    background-color: var(--wa-green);
+    color: var(--vino-oscuro);
+    border-radius: 50px;
+    padding: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-wa:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}

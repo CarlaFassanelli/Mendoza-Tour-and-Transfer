@@ -1,0 +1,253 @@
+/* filepath: c:\Users\carla\OneDrive\Documentos\PágWeb\Pág\css\sections\servicios.css */
+/* 
+ * ================================
+ * MENDOZA TOUR AND TRANSFER
+ * Estilos Página de Servicios
+ * ================================
+ */
+
+/* Sección Resumen Servicios */
+.servicios-seccion {
+    padding: 80px 20px 60px;
+    text-align: center;
+    background: var(--gris-fondo);
+}
+
+.servicios-seccion h2 {
+    font-family: "Saira Stencil One", sans-serif;
+    font-size: 2.5rem;
+    color: var(--vino);
+    margin-bottom: 20px;
+}
+
+.servicios-seccion p {
+    font-size: 1.2rem;
+    color: var(--gris-texto);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* ================= VENTAJAS Y BENEFICIOS ================= */
+.ventajas-seccion {
+    padding: 80px 20px;
+    background: var(--blanco);
+}
+
+.titulo-ventajas {
+    font-family: "Saira Stencil One", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--vino);
+    margin-bottom: 15px;
+}
+
+.subtitulo-ventajas {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--gris-texto);
+    margin-bottom: 50px;
+}
+
+.ventajas-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.ventaja-card {
+    background: var(--blanco);
+    border: 2px solid var(--gris-fondo);
+    border-radius: 15px;
+    padding: 35px 25px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.ventaja-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(122, 16, 32, 0.15);
+    border-color: var(--vino-claro);
+}
+
+.ventaja-icono {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.ventaja-card:hover .ventaja-icono {
+    transform: scale(1.2);
+}
+
+.ventaja-card h3 {
+    font-size: 1.4rem;
+    color: var(--vino-oscuro);
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.ventaja-card p {
+    font-size: 1rem;
+    color: var(--gris-texto);
+    line-height: 1.6;
+}
+
+/* ================= GALERÍA DE SERVICIOS ================= */
+.galeria-servicios {
+    padding: 80px 20px;
+    background: var(--gris-fondo);
+}
+
+.titulo-galeria-servicios {
+    font-family: "Saira Stencil One", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--vino);
+    margin-bottom: 15px;
+}
+
+.subtitulo-galeria-servicios {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--gris-texto);
+    margin-bottom: 50px;
+}
+
+.galeria-servicios-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+}
+
+.galeria-servicio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    height: 300px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.galeria-servicio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.galeria-servicio-item:hover img {
+    transform: scale(1.15);
+}
+
+.galeria-servicio-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(122, 16, 32, 0.95), transparent);
+    color: var(--blanco);
+    padding: 10px 10px 40px;
+    transform: translateY(0);
+    transition: all 0.3s ease;
+}
+
+.galeria-servicio-item:hover .galeria-servicio-info {
+    background: linear-gradient(to top, rgba(122, 16, 32, 1), rgba(122, 16, 32, 0.7));
+}
+
+.galeria-servicio-info h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.galeria-servicio-info p {
+    font-size: 1rem;
+    opacity: 0.95;
+}
+
+/* ================= GALERÍA DE FOTOS ================= */
+.galeria-inicio {
+    padding: 10px 10px 40px;
+    background: var(--blanco);
+}
+
+/* Clase para aplicar la fuente Saira Stencil One */
+.saira-stencil-one-regular {
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo-galeria {
+    font-family: "Saira Stencil One", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: var(--vino);
+}
+
+.subtitulo-galeria {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--gris-texto);
+    margin-bottom: 40px;
+}
+
+
+.galeria-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.galeria-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.galeria-item:hover img {
+    transform: scale(1.1);
+}
+
+.galeria-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: var(--blanco);
+    padding: 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.galeria-item:hover .galeria-overlay {
+    transform: translateY(0);
+}
+
+.galeria-overlay h4 {
+    font-size: 1.3rem;
+    margin: 0;
+}

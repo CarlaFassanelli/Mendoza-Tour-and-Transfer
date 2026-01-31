@@ -1,0 +1,56 @@
+/* ===== RESPONSIVE TABLET (768px y menores) ===== */
+@media (max-width: 768px) {
+    /* Header */
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    /* Carousel */
+    .carousel-container {
+        height: 60vh;
+        margin-top: 70px;
+    }
+
+    .wrap-texto h1 {
+        font-size: 2.2rem;
+    }
+
+    /* Cards */
+    .servicios-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Traslados */
+    .grid-fotos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-title {
+        font-size: 1.5rem;
+    }
+
+    .destacado-container {
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .bloque-detalle {
+        padding: 20px;
+    }
+
+    .texto-destacado ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Reservas */
+    .reserva-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .redes-sociales {
+        gap: 15px;
+    }
+}

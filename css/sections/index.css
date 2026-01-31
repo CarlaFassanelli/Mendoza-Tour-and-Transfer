@@ -1,0 +1,167 @@
+/* 
+ * ================================
+ * MENDOZA TOUR AND TRANSFER
+ * Estilos Página de Inicio
+ * ================================
+ */
+
+/* Fuente Saira Stencil One */
+.saira-stencil-one-regular {
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+/* Descripción Hero */
+.hero-descripcion {
+    font-size: x-large;
+    text-align: center;
+}
+
+.carousel-container .wrap-texto h1 {
+    text-align: center !important;
+}
+
+/* Sección Bienvenida */
+.titulo-bienvenida { 
+    font-family: "Saira Stencil One", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.subtitulo-bienvenida {
+    font-size: 1rem;
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Cards de Inicio */
+.card-inicio h3 {
+    font-size: 1.5rem;
+}
+
+.card-inicio p {
+    font-size: 1.1rem;
+}
+
+/* ================= INFORMACIÓN ADICIONAL ================= */
+.info-servicios {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, var(--vino) 0%, #c3cfe2 100%);
+    margin-top: -20px;
+}
+
+
+.info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.info-item {
+    background: var(--blanco);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.info-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: var(--vino-oscuro);
+    font-family: 'Saira Stencil One', sans-serif;
+}
+
+.info-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--gris-texto);
+}
+
+/* ================= GALERÍA DE FOTOS ================= */
+.galeria-inicio {
+    padding: 60px 20px;
+    background: var(--blanco);
+}
+.titulo-galeria {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center !important;
+    display: block;
+    width: 100%;
+    color: var(--vino);
+}
+.titulo-galeria {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center !important;
+    display: block;
+    width: 100%;
+}
+
+.subtitulo-galeria {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--gris-texto);
+    margin-bottom: 40px;
+}
+
+.galeria-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.galeria-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.galeria-item:hover img {
+    transform: scale(1.1);
+}
+
+.galeria-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: var(--blanco);
+    padding: 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.galeria-item:hover .galeria-overlay {
+    transform: translateY(0);
+}
+
+.galeria-overlay h4 {
+    font-size: 1.3rem;
+    margin: 0;
+
+}

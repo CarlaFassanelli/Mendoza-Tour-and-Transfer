@@ -1,0 +1,124 @@
+/* ===== RESPONSIVE MOBILE (480px y menores) ===== */
+@media (max-width: 480px) {
+    /* Header */
+    .header {
+        padding: 1rem 3%;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .logo-img {
+        height: 40px;
+    }
+
+    /* Menu */
+    .nav-menu {
+        width: 100%;
+    }
+
+    /* Carousel */
+    .carousel-container {
+        height: 50vh;
+        margin-top: 70px;
+    }
+
+    .wrap-texto h1 {
+        font-size: 1.8rem;
+    }
+
+    /* Cards */
+    .card {
+        max-width: 100%;
+        padding: 12px;
+    }
+
+    .card-body h3 {
+        font-size: 1.1rem;
+    }
+
+    /* Traslados */
+    .main-title {
+        font-size: 1.2rem;
+    }
+
+    .servicios-iconos {
+        gap: 10px;
+        font-size: 0.8rem;
+    }
+
+    .destacado-container {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .icon-destacado {
+        font-size: 2rem;
+    }
+
+    .bloque-detalle {
+        padding: 15px;
+    }
+
+    .grid-fotos {
+        gap: 15px;
+    }
+
+    .item-foto {
+        width: 100px;
+        height: 100px;
+    }
+
+    .item-foto img {
+        width: 80px !important;
+        height: 80px !important;
+        max-width: 80px !important;
+        max-height: 80px !important;
+    }
+
+    .item-foto h4 {
+        font-size: 0.65rem;
+    }
+
+    /* Reservas */
+    .reserva-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .reserva-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .btn-tours {
+        padding: 12px 30px;
+        font-size: 0.9rem;
+    }
+
+    .redes-sociales {
+        gap: 15px;
+        font-size: 1.2rem;
+    }
+}
+
+/* Responsivo para Celulares */
+@media (max-width: 768px) {
+    .excursiones-grid {
+        grid-template-columns: 1fr; /* Una sola columna en móvil */
+    }
+    .excursion-card {
+        flex-direction: column; /* Imagen arriba, texto abajo */
+    }
+    .excursion-img {
+        height: 200px;
+    }
+}
+
+/* Responsivo: 1 columna en celulares */
+@media (max-width: 768px) {
+    .aventura-grid {
+        grid-template-columns: 1fr;
+    }
+}

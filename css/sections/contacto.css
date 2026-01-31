@@ -1,0 +1,102 @@
+/* Estilos Sección Contacto */
+.contacto-seccion {
+    background-color: var(--secundario);
+    padding-bottom: 50px;
+}
+
+.header-contacto {
+    color: var(--blanco);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.header-contacto h2 {
+    font-family: "Saira Stencil One", sans-serif;
+    font-size: 2.5rem;
+}
+
+.top-info-contacto {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.empresa-info p { margin: 2px 0; font-size: 13px; color: var(--gris-texto); }
+.legales-links a { font-size: 11px; margin-right: 10px; color: var(--gris-texto); }
+
+.detalles-iconos .item-icono {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.detalles-iconos i { margin-right: 10px; color: var(--vino); }
+
+.instrucciones-formulario {
+    text-align: center;
+    max-width: 700px;
+    margin: 30px auto;
+    font-size: 14px;
+}
+
+.container-formulario {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.grid-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.campo { margin-bottom: 15px; }
+.campo label { display: block; font-size: 14px; margin-bottom: 5px; }
+
+.campo input {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--card-bg);
+    border: 1px solid var(--vino-claro);
+    outline: none;
+}
+
+.campo textarea {
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+    border: 1px solid var(--vino);
+    outline: none;
+}
+
+.btn-enviar-form {
+    background-color: var(--verde);
+    color: var(--blanco);
+    padding: 12px 40px;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+
+.btn-enviar-form:hover {
+    background-color: var(--verde-claro);
+}
+
+/* WhatsApp Flotante */
+.whatsapp-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    .grid-form { grid-template-columns: 1fr; }
+    .top-info-contacto { flex-direction: column; text-align: center; }
+}

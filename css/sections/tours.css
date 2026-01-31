@@ -1,0 +1,35 @@
+/* ================================
+   TOURS PRINCIPALES
+   ================================ */
+
+.tours-seccion {
+    padding: 10px 10px 40px;
+    background: var(--secundario);
+    text-align: center;
+    font-family: "Saira Stencil One", sans-serif;
+}
+
+.tours-seccion h2 {
+    font-family: "Saira Stencil One", sans-serif;
+    font-size: 2.5rem;
+    color: var(--vino);
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.tours-seccion .servicios-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tours-seccion .card-body ul {
+    text-align: left;
+}
+
+.tours-seccion .card-body li {
+    color: var(--gris-texto);
+}
+
+.tours-seccion .card-buttons {
+    align-items: center;
+}

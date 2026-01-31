@@ -1,0 +1,172 @@
+/* ===== VARIABLES DE COLOR ===== */
+:root {
+    --vino: #7a1020;
+    --vino-oscuro: #5c0c18;
+    --vino-claro: #e27282;
+    --verde: #2f6b3f;
+    --verde-claro: #4c8b5f;
+    --blanco: #ffffff;
+    --gris-texto: #444;
+    --gris-fondo: #f6f6f6;
+    --card-bg: #ffffff;
+    --wa-green: #25d366;
+
+    
+    /* Variables principales */
+    --primario: var(--vino);
+    --secundario: var(--gris-fondo);
+    --oscuro: var(--vino-oscuro);
+    --texto: var(--gris-texto);
+}
+/* ===== COLORES BASADOS EN ROOT ===== */
+#excursiones {
+    background-color: var(--secundario) !important;
+    color: var(--texto) !important;
+    padding: 10px 20px 40px;
+    text-align: center;
+    font-family: "Saira Stencil One", sans-serif;
+}
+
+#excursiones h2 {
+    color: var(--vino) !important;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.intro-excursiones {
+    color: var(--gris-texto) !important;
+}
+
+.excursion-card {
+    background-color: var(--card-bg) !important;
+    border-color: var(--gris-fondo) !important;
+}
+
+.excursion-img {
+    background-color: var(--secundario) !important;
+}
+
+.excursion-info h3 {
+    color: var(--primario) !important;
+}
+
+.excursion-info p {
+    color: var(--gris-texto) !important;
+}
+
+.btn-reservar {
+    border-color: var(--primario) !important;
+    color: var(--primario) !important;
+}
+
+.btn-reservar:hover {
+    background-color: var(--primario) !important;
+    color: var(--blanco) !important;
+}
+/* Configuración General de la Sección */
+#excursiones {
+    padding: 10px 20px 40px;
+    background-color: var(--secundario);
+    font-family: "Saira Stencil One", sans-serif;
+    text-align: center;
+}
+
+.container-excursiones {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#excursiones h2 {
+    color: var(--vino);
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    font-family: "Saira Stencil One", sans-serif;
+}
+
+.intro-excursiones {
+    font-size: 0.9rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+/* Grilla de 2 Columnas */
+.excursiones-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Espacio entre tarjetas */
+}
+
+.excursion-card {
+    display: flex; /* Alinea imagen y texto horizontalmente */
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    overflow: hidden;
+    min-height: 250px;
+}
+
+/* Contenedor de Imagen (Imagen más chica y centrada) */
+.excursion-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px; /* Crea el efecto de imagen más pequeña */
+    background-color: #f9f9f9;
+}
+
+.excursion-img img {
+    max-width: 100%; /* Tamaño reducido */
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+/* Contenedor de Texto */
+.excursion-info {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.excursion-info h3 {
+    color: #e67e22;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-family: "Saira Stencil One", sans-serif;
+}
+
+.excursion-info p {
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Botón */
+.btn-reservar {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #e67e22;
+    color: #e67e22;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: "Saira Stencil One", sans-serif;
+    align-self: center;
+    transition: 0.3s;
+}
+
+.btn-reservar:hover {
+    background-color: #e67e22;
+    color: white;
+}
+
+.seccion-reservas .reserva-header h3 {
+    font-family: "Saira Stencil One", sans-serif;
+}
+

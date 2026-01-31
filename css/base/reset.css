@@ -1,0 +1,32 @@
+/* ===== RESET GLOBAL ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Syriac', sans-serif;
+}
+
+body {
+    background-color: var(--secundario);
+    color: var(--texto);
+    line-height: 1.6;
+    padding-top: 80px;
+}
+
+/* ===== CONTENIDO PRINCIPAL ===== */
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    color: var(--primario);
+    border-bottom: 2px solid var(--verde);
+    display: inline-block;
+    margin-bottom: 25px;
+}

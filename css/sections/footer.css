@@ -1,0 +1,31 @@
+/* ===== BOTÓN WHATSAPP ===== */
+.btn-whatsapp {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg');
+    transition: 0.3s ease;
+   
+}
+
+.btn-whatsapp:hover {
+    transform: scale(1.1);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 40px;
+    background: var(--oscuro);
+    color: var(--blanco);
+    margin-top: 60px;
+}
