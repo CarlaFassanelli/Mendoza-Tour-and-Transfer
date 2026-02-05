@@ -20,12 +20,23 @@
 
     /* Carousel */
     .carousel-container {
-        height: 50vh;
+        height: 60vh;
+        min-height: 360px;
         margin-top: 70px;
     }
 
+    .carousel-item img {
+        object-position: center;
+    }
+
     .wrap-texto h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
+    .hero-descripcion {
+        font-size: 1rem;
+        line-height: 1.4;
     }
 
     /* Cards */

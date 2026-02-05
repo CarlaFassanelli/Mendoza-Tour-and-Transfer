@@ -43,6 +43,42 @@
     font-size: 14px;
 }
 
+.mapa-ubicacion {
+    max-width: 1100px;
+    margin: 25px auto 10px;
+    padding: 0 20px;
+    text-align: center;
+    color: var(--blanco);
+}
+
+.mapa-ubicacion h3 {
+    font-family: "Saira Stencil One", sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+    color: var(--vino);
+    text-transform: uppercase;
+}
+
+.mapa-ubicacion p {
+    font-size: 14px;
+    color: var(--gris-texto);
+    margin-bottom: 12px;
+}
+
+.mapa-embed {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.mapa-embed iframe {
+    width: 100%;
+    height: 360px;
+    border: 0;
+    display: block;
+}
+
 .container-formulario {
     max-width: 1000px;
     margin: 0 auto;
