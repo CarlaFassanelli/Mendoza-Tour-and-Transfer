@@ -27,5 +27,5 @@ footer {
     padding: 40px;
     background: var(--oscuro);
     color: var(--blanco);
-    margin-top: 60px;
+    margin-top: auto;
 }

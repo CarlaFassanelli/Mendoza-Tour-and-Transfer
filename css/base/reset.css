@@ -11,6 +11,9 @@ body {
     color: var(--texto);
     line-height: 1.6;
     padding-top: 80px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ===== CONTENIDO PRINCIPAL ===== */
