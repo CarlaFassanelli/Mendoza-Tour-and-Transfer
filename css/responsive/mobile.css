@@ -22,7 +22,7 @@
     .carousel-container {
         height: 60vh;
         min-height: 360px;
-        margin-top: 70px;
+        margin-top: -60px;
     }
 
     .carousel-item img {

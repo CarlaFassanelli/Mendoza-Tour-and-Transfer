@@ -8,7 +8,7 @@
     /* Carousel */
     .carousel-container {
         height: 60vh;
-        margin-top: 70px;
+        margin-top: -60px;
     }
 
     .wrap-texto h1 {
