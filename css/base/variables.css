@@ -1,0 +1,20 @@
+/* ===== VARIABLES DE COLOR ===== */
+:root {
+    --vino: #7a1020;
+    --vino-oscuro: #5c0c18;
+    --vino-claro: #e27282;
+    --verde: #2f6b3f;
+    --verde-claro: #4c8b5f;
+    --blanco: #ffffff;
+    --gris-texto: #444;
+    --gris-fondo: #f6f6f6;
+    --card-bg: #ffffff;
+    --wa-green: #25d366;
+
+    
+    /* Variables principales */
+    --primario: var(--vino);
+    --secundario: var(--gris-fondo);
+    --oscuro: var(--vino-oscuro);
+    --texto: var(--gris-texto);
+}

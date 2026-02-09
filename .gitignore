@@ -1,0 +1,5 @@
+.vscode/
+.venv/
+.qodo/
+.DS_Store
+Thumbs.db
