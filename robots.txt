@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.mendozatourandtransfer.com.ar/sitemap.xml
